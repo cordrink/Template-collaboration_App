@@ -1,0 +1,149 @@
+body{
+    height: 100vh;
+    overflow: hidden;
+    background-color: #d9d9d9;
+    font-family: poppins, sans-serif;
+}
+
+.main-container {
+    display: flex;
+}
+
+.form-zone {
+    flex-basis: 65%;
+}
+
+.form-zone > div{
+    margin-bottom: 40px;
+}
+
+.logo {
+    padding: 10px 0; 
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.bx-calendar {
+    font-size: 30px;
+    color: #355094;
+    border: 3px solid #355094;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: rgba(53, 80, 148,.2);
+    margin-left: 10px;
+}
+
+.other-log {
+    text-align: center;
+}
+
+.other-log h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #355094;
+    padding: 10px 0;
+}
+
+.other-log .log-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 10px 0;
+}
+
+.other-log .log-icon i {
+    font-size: 30px;
+}
+
+.other-log span {
+    color: grey;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+form {
+    height: 370px;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+}
+
+form .form-group {
+    display: flex;
+    border: 1px solid;
+    justify-content: space-between;
+    gap: 5px;
+    width: 50%;
+    align-items: center;
+    padding-left: 5px;
+    margin: 0 auto 15px;
+    border-radius: 3px;
+    background-color: white;
+    border: none;
+    height: 50px;
+}
+
+.form-group i {
+    color: grey;
+    padding-top: 4px;
+    font-size: 24px;
+}
+
+.form-group input {
+    padding: 5px;
+    width: 95%;
+    border: none;
+    outline: none;
+}
+
+form p {
+    padding: 70px 0 60px;
+}
+
+input[type="submit"] {
+    border: none;
+    color: #d9d9d9;
+    background-color: #355094;
+    border-radius: 10px;
+    width: 120px;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.presentation {
+    background-color: #355094;
+    flex-basis: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.presentation h3 {
+    color: white;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+
+.presentation p {
+    color: #d9d9d9;
+    font-size: small;
+    text-align: center;
+    line-height: 20px;
+}
+
+.presentation a {
+    text-decoration: none;
+    /*color: #355094;
+    background-color: #d9d9d9;*/
+    color: #d9d9d9;
+    border: 1px solid #d9d9d9;
+    display: inline-block;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 10px;
+}
